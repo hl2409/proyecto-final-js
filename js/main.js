@@ -8,20 +8,20 @@ console.log('Bienvenido a la central de turnos');
 console.log('--------------');
 
 let afiliado = Number(prompt('Ingrese numero de afiliado'));
-let nombre = 'Juan Perez'
-let turno1 = '1. 24/09 a las 11hs'
-let turno2 = '2. 24/09 a las 13hs'
-let turno3 = '3. 25/09 a las 13hs'
-let turno4 = '4. 27/09 a las 11hs'
-let turno5 = '5. 27/09 a las 17hs'
+let nombre = 'Juan Perez';
+let turno1 = '1. 24/09 a las 11hs';
+let turno2 = '2. 24/09 a las 13hs';
+let turno3 = '3. 25/09 a las 13hs';
+let turno4 = '4. 27/09 a las 11hs';
+let turno5 = '5. 27/09 a las 17hs';
 
 
 function validarAfiliado(){
 
     if (afiliado === 1234){
-        console.log('Bienvenido ' + nombre)
+        console.log('Bienvenido ' + nombre);
         console.log('--------------');
-        menuOpciones()
+        menuOpciones();
     }else{
         console.log('el numero de afiliado no existe');
     }
@@ -38,13 +38,13 @@ function menuOpciones(validarAfiliado){
     
     switch(opcionSeleccionada){
         case '1':
-            sacarTurno()
+            sacarTurno();
             break;
         case '2':
-            CancelarTurno()
+            CancelarTurno();
             break;
         case '3':
-            salir()
+            salir();
         default:
             console.log('');
     }
@@ -63,15 +63,15 @@ function sacarTurno(){
 }
 
 function cancelarTurno(){
-    console.log('usted no tiene ningun turno asignado')
+    console.log('usted no tiene ningun turno asignado');
 }
 
 function salir(){
-    console.log('gracias por su visita')
+    console.log('gracias por su visita');
 }
 
 // ejecucion
-validarAfiliado()
+validarAfiliado();
 
 
 
