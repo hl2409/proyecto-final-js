@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(164, 145, 17);
+}
+
+body div{
+    background-color:  rgb(177, 157, 29);
+    border-radius: 15px;
+    max-width: 80%;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
