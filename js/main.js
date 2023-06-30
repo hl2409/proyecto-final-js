@@ -2,10 +2,6 @@ console.log('Proyecto Final');
 console.log('Central de turnos medicos')
 console.log('--------------');
 
-// como bien dijo el profesor uno podria tomar ejercicios de la clase ponerlos como preentrega pero que gracia tendria no?
-// mi base y mi primer preentrega no necesita iteraciones hasta que este mas avanzado
-// se agrega una calculadora de tablas numericas con prompt para cumplir la rubrica.
-
 console.log('Bienvenido a la central de turnos');
 console.log('--------------');
 
