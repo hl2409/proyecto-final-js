@@ -3,8 +3,8 @@ console.log('Central de turnos medicos')
 console.log('--------------');
 
 // sistema de turnos
-/* si hay una calculadora forzada para la rubrica es por que con lo aprendido hasta ese momento, no veia necesidad de usar una iteracion en la base de lo que sera el proyecto final, que debido a mala comunicacion, 
-la segunda preentrega terminara siendo algo hecho completamente de cero, si esta mas que claro que estoy aplicando los conceptos correctamente , y no los estoy forzando donde no los necesito, no podes bajar puntos por que sos un vago.
+/* si hay una calculadora forzada para la rubrica es por que con lo aprendido hasta ese momento, no veia necesidad de usar una iteracion en la base de lo que sera el proyecto final, que debido a mala o falta de ella de los tutores que no aparecen nunca, no dicen nada, no contestan la comunicacion fracasa, 
+la segunda preentrega terminara siendo algo hecho completamente de cero, si esta mas que claro que estoy aplicando los conceptos correctamente , y no los estoy forzando donde no los necesito, no podes bajar puntos por que sos un vago. desmotivas.
 */
 console.log('Bienvenido a la central de turnos');
 console.log('--------------');
