@@ -32,6 +32,7 @@ function menuOpciones(validarAfiliado){
     console.log('1: Sacar turno');
     console.log('2: Cancelar turno');
     console.log('3: Salir');
+    console.log('4: calculadora forzada para la rubrica...');
     console.log('--------------');
     
     let opcionSeleccionada = (prompt('Ingrese la opcion deseada'));
@@ -45,6 +46,8 @@ function menuOpciones(validarAfiliado){
             break;
         case '3':
             salir();
+        case '4':
+            calculadora();
         default:
             console.log('');
     }
@@ -70,74 +73,13 @@ function salir(){
     console.log('gracias por su visita');
 }
 
+function calculadora(){
+let numero = Number(prompt("Tabla del: "));
+console.log(numero);
+console.log(typeof numero);
+for(let i=0; i<=10; i+=1){
+    let resultado = numero * i;
+    console.log(resultado)
+}}
 // ejecucion
 validarAfiliado();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* let opciones = Number(prompt('Ingrese la opcion deseada.'));
-let afiliado = 113321
-let turno1 = '1. 24/09 a las 11hs'
-let turno2 = '2. 24/09 a las 13hs'
-let turno3 = '3. 25/09 a las 13hs'
-let turno4 = '4. 27/09 a las 11hs'
-let turno5 = '5. 27/09 a las 17hs'
-
-function sacarTurno(){
-    console.log('Los turnos disponibles son');
-    console.log(turno1);
-    console.log(turno2);
-    console.log(turno3);
-    console.log(turno4);
-    console.log(turno5);
-    seleccionarTurno()
-}
-
-function seleccionarTurno(sacarTurno){
-    prompt(ingrese el turno deseado);
-}
-
-
-
-switch(opciones1){
-    case 1:
-        sacarTurno()
-    case 2:
-        
-
-
-    //validar numero de afiliado
-    // opciones 
-        //sacar turno
-            // ver fechas
-                //seleccionar fecha
-                    //finalizar
-        // ver mis turnos
-            // ver fecha asignada
-            // cancelar turno
-                //finalizar
-        // salir1
-            
-
-}
-
-
- */
