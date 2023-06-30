@@ -34,7 +34,7 @@ function menuOpciones(validarAfiliado){
     console.log('1: Sacar turno');
     console.log('2: Cancelar turno');
     console.log('3: Salir');
-    console.log('4: calculadora forzada para la rubrica...');
+    console.log('4: calculadora de tablas...');
     console.log('--------------');
     
     let opcionSeleccionada = (prompt('Ingrese la opcion deseada'));
