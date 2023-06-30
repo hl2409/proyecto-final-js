@@ -78,7 +78,6 @@ function salir(){
 function calculadora(){
 let numero = Number(prompt("Tabla del: "));
 console.log(numero);
-console.log(typeof numero);
 for(let i=0; i<=10; i+=1){
     let resultado = numero * i;
     console.log(resultado)
