@@ -77,6 +77,7 @@ console.log(numero);
 for(let i=0; i<=10; i+=1){
     let resultado = numero * i;
     console.log(resultado)
-}}
+}
+}
 // ejecucion
 validarAfiliado();
