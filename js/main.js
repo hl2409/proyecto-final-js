@@ -2,17 +2,9 @@ console.log('Proyecto Final');
 console.log('Central de turnos medicos')
 console.log('--------------');
 
-// sistema de turnos
-/* si hay una calculadora forzada para la rubrica es por que con lo aprendido hasta ese momento, 
-no veia necesidad de usar una iteracion en la base de lo que sera el proyecto final, 
-si la necesitabas si o si, un mensajito por el chat lo arregla todo y se corrige en dos minutos.
-en todo caso no le llamen primer preentrega y hago ejercicios y cumplo las rubricas con menos esfuerzo, 
-que debido a mala o falta de comunicacion de los tutores uno se siente perdiddo, pero uno solo no, somos un grupo de estudiantes, y bastante grande que esta molesto por las formas, por no explicar, por no responder.
-la segunda preentrega terminara siendo algo hecho completamente de cero, si esta mas que claro que estoy aplicando los conceptos correctamente , y no los estoy forzando donde no los necesito, no podes bajar puntos por que sos un vago. desmotivas.
-*/
-// cambian los tutores sin avisar, el tutor no se comunica ni pregunta por que mi trabajo esta atrasado, 
-//estuve 20 dias enfermo todos los dias viendo clases por que estaba atrasado coder me dijo que no me haga problema que si no me cambiaba de comision todo se arreglaba
-// llega uno que ni hola dice te corrige sin comentarios, y te corrige para abajo basandose en un powerpoint.
+// como bien dijo el profesor uno podria tomar ejercicios de la clase ponerlos como preentrega pero que gracia tendria no?
+// mi base y mi primer preentrega no necesita iteraciones hasta que este mas avanzado
+// se agrega una calculadora para cumplir la rubrica.
 
 console.log('Bienvenido a la central de turnos');
 console.log('--------------');
